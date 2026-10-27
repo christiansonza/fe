@@ -1,10 +1,5 @@
 import type { Mark } from "./gameLogic";
 
-/**
- * The Express API runs on http://localhost:4000/api during local development.
- * Point NEXT_PUBLIC_API_URL at it, or leave it unset to use the API routes that
- * are served from this same Next.js app.
- */
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "/api";
 
 export interface RoundMove {

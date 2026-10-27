@@ -2,7 +2,6 @@ export type Mark = "X" | "O";
 
 export type Cell = Mark | null;
 
-/** Nine cells, index 0 is the top-left square. */
 export type Board = Cell[];
 
 export interface WinResult {
